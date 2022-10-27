@@ -1,0 +1,70 @@
+@font-face {
+    font-family: LexendDeca;
+    src: url(static/LexendDeca-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: bigshouldersdisplay;
+    src: url(static2/BigShouldersDisplay-VariableFont_wght.ttf);
+}
+
+.container{
+    max-width: 60%;;
+    margin: auto;
+    display: flex;
+    
+    justify-content: space-evenly;
+    margin-top: 7rem;
+    
+}
+.flexbox1, .flexbox2, .flexbox3{
+    padding: 2rem;
+    text-align: left;
+    
+}
+.flexbox1{
+    background-color: hsl(31, 77%, 52%);
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-family:LexendDeca;
+   
+}
+.flexbox2{
+    background-color: hsl(184, 100%, 22%);
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-family:LexendDeca;
+    font-weight: 400;
+}
+.flexbox3{
+    background-color: hsl(179, 100%, 13%);
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px; 
+    font-family:LexendDeca;
+}
+.flexbox1 button, .flexbox2 button, .flexbox3 button{
+    width: 7rem;
+    height: 2.5rem;
+    border-radius: 20px;
+    border: none;
+    background-color: hsl(0, 0%, 95%);
+}
+.flexbox1 h1, .flexbox2 h1, .flexbox3 h1{
+    color: hsl(0, 0%, 95%);
+    font-size:x-large;
+    font-family: bigshouldersdisplay;
+
+}
+
+.flexbox1 button{
+    color: hsl(31, 77%, 52%);
+}
+.flexbox2 button{
+    color: hsl(184, 100%, 22%);
+}
+.flexbox3 button{
+    color: hsl(179, 100%, 13%);
+}
+
+body{
+    color: hsl(0, 0%, 95%);
+}
